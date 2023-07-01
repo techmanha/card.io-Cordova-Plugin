@@ -104,6 +104,7 @@
         paymentViewController.scanInstructions = scanInstructions;
     }
 
+    [[UIButton appearanceWhenContainedIn:[CardIOPaymentViewController class], nil] setBackgroundColor:UIColor.blackColor];
     [self.viewController presentViewController:paymentViewController animated:YES completion:nil];
 
 }
